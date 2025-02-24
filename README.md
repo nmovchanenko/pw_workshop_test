@@ -1,8 +1,8 @@
 # Playwright workshops
 
-- [ ] [Local setup](https://playwright.dev/docs/intro)
-- [ ] [Running and debugging](https://playwright.dev/docs/running-tests)
-- [ ] [Reporting](https://playwright.dev/docs/test-reporters) and [Traces](https://playwright.dev/docs/trace-viewer-intro)
+- [x] [Local setup](https://playwright.dev/docs/intro)
+- [x] [Running and debugging](https://playwright.dev/docs/running-tests)
+- [x] [Reporting](https://playwright.dev/docs/test-reporters) and [Traces](https://playwright.dev/docs/trace-viewer-intro)
 - [ ] [Locators](https://playwright.dev/docs/locators)
 - [ ] [Actions](https://playwright.dev/docs/input)
 - [ ] [Assertions](https://playwright.dev/docs/test-assertions) 
