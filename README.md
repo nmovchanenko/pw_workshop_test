@@ -13,3 +13,10 @@
 - [ ] [Mocking](https://playwright.dev/docs/mock)
 - [ ] [Network](https://playwright.dev/docs/network)
 - [ ] [Auth and storage state](https://playwright.dev/docs/auth#session-storage)
+
+
+
+## Notes
+JS. Object and array desctructuring
+https://www.w3schools.com/js/js_destructuring.asp
+
