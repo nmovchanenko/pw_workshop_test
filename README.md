@@ -20,3 +20,4 @@
 JS. Object and array desctructuring
 https://www.w3schools.com/js/js_destructuring.asp
 
+"type": "module", vs 'commmon.js'
