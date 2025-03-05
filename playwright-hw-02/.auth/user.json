@@ -1,0 +1,14 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://angular-realworld-example-app-neon.vercel.app",
+      "localStorage": [
+        {
+          "name": "jwtToken",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjdiZjA5ZGJmNTA2OWZmMDY4OTViNTNhIiwiZW1haWwiOiJmb29AZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkWVU5REhoVTQ0ZGRnVFdjN1dLL1R2ZW9mRktzMGMzSUpoS3YuWDBRSXBIZ2lLeTRKRkhUVVcifSwiaWF0IjoxNzQxMTkxNzU3LCJleHAiOjE3NDEyNzgxNTd9.cZRCBs7wXCLrowy6rJKI5mVorxzWRuGgJyGLNiN7gQQ"
+        }
+      ]
+    }
+  ]
+}
