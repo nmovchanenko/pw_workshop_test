@@ -11,7 +11,7 @@
 - [x] [Playwright Projects](https://playwright.dev/docs/test-projects)
 - [x] [Fixtures](https://playwright.dev/docs/test-fixtures)
 - [ ] [Mocking](https://playwright.dev/docs/mock)
-- [ ] [Network](https://playwright.dev/docs/network)
+- [ ] [Network](https://playwright.dev/docs/network) and [API testing](https://playwright.dev/docs/api-testing)
 - [x] [Auth and storage state](https://playwright.dev/docs/auth#session-storage)
 
 
