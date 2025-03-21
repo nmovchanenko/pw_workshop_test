@@ -12,7 +12,7 @@ test('test', async ({ page }) => {
     await loginPage.fillPassword('foo');
     await loginPage.clickSignIn();
 
-    await expect(navPage.profileIcon, 'should be visible profile icon').toBeVisible();
+    await expect(page.locator('.user-pic')).toBeVisible();
 });
 
 

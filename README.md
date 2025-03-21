@@ -15,9 +15,10 @@
 - [ ] [Auth and storage state](https://playwright.dev/docs/auth#session-storage)
 
 
-
 ## Notes
 JS. Object and array desctructuring
 https://www.w3schools.com/js/js_destructuring.asp
 
 "type": "module", vs 'commmon.js'
+Can we keep setup scripts outside 'tests'?
+Get rid of hard-coded email/passwords
