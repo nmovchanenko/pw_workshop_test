@@ -3,7 +3,7 @@ import { test } from '@playwright/test';
 import {LoginPage} from '../../pages/login.page.js';
 import {NavPage} from '../../pages/nav.page.js';
 
-test('authenticate', async ({page}) => {
+test('authenticate', async ({page, request}) => {
     console.log('authenticate step');
     const loginPage = new LoginPage(page);
     const navPage = new NavPage(page);

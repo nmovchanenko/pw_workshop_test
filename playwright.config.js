@@ -49,6 +49,5 @@ export default defineConfig({
     },
   ],
 });
-// movchanenko.nn+market@gmail.com
-// JDK-ssdk323-123a
+
 
