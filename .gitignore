@@ -1,9 +1,7 @@
-
-# Playwright
+.idea/
 node_modules/
+playwright-report/
 /test-results/
-/playwright-report/
 /blob-report/
 /playwright/.cache/
-playwright-report/
-.idea/
+.env/

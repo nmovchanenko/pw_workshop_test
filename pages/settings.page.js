@@ -1,20 +1,21 @@
-import {test} from '@playwright/test';
+import { test } from '@playwright/test';
 
 export class SettingsPage {
     constructor(page) {
-        this.userNameInput = page.getByRole('textbox', {name: 'Username'});
-        this.updateSettingsBtn = page.getByRole('button', {name: 'Update Settings'});
+        this.page = page;
+        this.userNameInput = page.locator('//input[@formcontrolname=\'username\']');
+        this.updateSettingsButton = page.locator('//button[text()=\' Update Settings \']');
     }
 
-    async fillUserName(name) {
-        await test.step('user fill name', async () => {
+    async fillInUserName(name) {
+        await test.step(`User fills in userName`, async () => {
             await this.userNameInput.fill(name);
-        })
+        });
     }
 
-    async clickUpdateSettings() {
-        await test.step('user click update button', async () => {
-            await this.updateSettingsBtn.click();
-        })
+    async clickUpdateSettingsButton() {
+        await test.step(`User clicks Update Settings button`, async () => {
+            await this.updateSettingsButton.click();
+        });
     }
 }
