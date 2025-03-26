@@ -1,7 +1,7 @@
-import {test, expect} from '../fixtures';
-import {NavBar} from '../pages/nav.bar';
-import {NewArticlePage} from '../pages/newArticle.page';
-import {ArticlePage} from '../pages/article.page';
+import {test, expect} from '../../fixtures.js';
+import {NavBar} from '../../pages/nav.bar.js';
+import {NewArticlePage} from '../../pages/newArticle.page.js';
+import {ArticlePage} from '../../pages/article.page.js';
 import {faker} from '@faker-js/faker';
 
 test('Test 1 - Create new article', async ({homePageFixture}) => {

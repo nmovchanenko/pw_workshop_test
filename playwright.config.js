@@ -33,8 +33,31 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      name: 'setup',
+      testMatch: 'tests/tests_with_storageState/auth.setup.js',
+    },
+    {
+      name: 'CHROMIUM_tests_with_storageState',
+      testMatch: 'tests/tests_with_storageState/**/*.spec.js',
+      use: {
+        ...devices['Desktop Chrome'],
+        storageState: '.auth/auth.json',
+      },
+      dependencies: ['setup'],
+    },
+    {
+      name: 'CHROMIUM_tests_with_fixture',
+      testMatch: 'tests/tests_with_fixture/**/*.spec.js',
+      use: {
+        ...devices['Desktop Chrome'],
+      },
+    },
+    {
+      name: 'CHROMIUM_tests_without_fixture',
+      testMatch: 'tests/tests_without_fixture/**/*.spec.js',
+      use: {
+        ...devices['Desktop Chrome'],
+      },
     },
 
     // {

@@ -1,9 +1,9 @@
 import {test, expect} from '@playwright/test';
-import {NavBar} from '../pages/nav.bar';
-import {SignUpPage} from '../pages/signUp.page';
+import {NavBar} from '../../pages/nav.bar.js';
+import {SignUpPage} from '../../pages/signUp.page.js';
 import {faker} from '@faker-js/faker';
 
-test('Test 5 - Sign Up without fixture', async ({ page }) => {
+test('Test - Sign Up without fixture', async ({ page }) => {
     const signUpPage = new SignUpPage(page);
     const navPage = new NavBar(page);
 
